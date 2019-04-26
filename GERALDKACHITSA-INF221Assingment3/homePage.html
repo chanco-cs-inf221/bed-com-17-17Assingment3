@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel= "stylesheet" type="text/css" href="calculator.css">
+<title>Calculator</title>
+
+</head>
+<body>
+
+<ul>
+  <li ><a class="active" href="#home">Home</a></li>
+  <li><a href="News.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li style="float:right;"><a href="about.html">About Gerald</a></li>
+</ul>
+
+
+
+<div style="background:rgb(56, 51, 46);">
+<h1 style="padding-left:500px; font-family: cursive; color: hsla(44, 100%, 83%, 0.3);">Welcome to My Page</h1>
+<h2 style="padding-left:500px; font-family: New Century Schoolbook; color: hsla(44, 100%, 83%, 0.3);font-weight:bold;font-size:30px">Gerald Galugalu Kachitsa BED/COM/17/17</h2>
+<h2 style="padding-left:500px; font-family: New Century Schoolbook; color: hsla(44, 100%, 83%, 0.3);">Chanco,UNIMA</h2>
+</div>
+<div class="grid-container">
+<div class="grid-item">
+<img style="padding-left:80px; width:300px; height:400px" src="gerald1.JPG"/>
+
+</div>
+<div class="grid-item"; id="flex-container ";>
+<ul>
+ <li style="background-color:hsla(44, 100%, 83%, 0.3);padding-top=100px; margin-top:60px;font-weight:bold;"><img style="width:50px; height:50px;" src="git1.PNG"/>GeraldKachitsa</li>
+<li style="background-color:hsla(44, 100%, 83%, 0.3);margin-top:40px;padding-right:500px; font-weight:bold;"><img style="width:50px; height:50px; " src="whatsapp1.PNG"/>+265 995 905</li>
+<li style="background-color:hsla(44, 100%, 83%, 0.3);padding-top=100px;margin-top:40px;font-weight:bold;"><img style="width:50px; height:50px;" src="add.png"/>Add him on Messanger</li>
+</ul>
+
+</div>
+<div class="grid-item">
+   <img src="pic2.PNG"/>
+</div>
+</div>
+<h1 style="font-family: cursive; color: hsla(44, 100%, 83%, 0.3); border-left: 10px solid rgb(0, 51, 0);background:rgb(56, 51, 46);">Feel good to use a calculator and a Clock & Enjoy not so good ASCII Cartoons</h1>
+
+
+
+
+  <div class="grid-container">
+<div class="grid-item">
+<form class="column" name="calculator">
+   <table>
+      <tr>
+         <td colspan="4">
+            <input type="text" name="display" id="display">
+           
+         </td>
+      </tr>
+      <tr>
+            <td><input type="button" name="one" value="1" onclick="calculator.display.value += '1'"></td>
+            <td><input type="button" name="two" value="2" onclick="calculator.display.value += '2'"></td>
+            <td><input type="button" name="three" value="3" onclick="calculator.display.value += '3'"></td>
+            <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += '+'"></td>
+     </tr>
+     <tr>
+            <td><input type="button" name="four" value="4" onclick="calculator.display.value += '4'"></td>
+            <td><input type="button" name="five" value="5" onclick="calculator.display.value += '5'"></td>
+            <td><input type="button" name="six" value="6" onclick="calculator.display.value += '6'"></td>
+            <td><input type="button" class="operator" name="minus" value="-" onclick="calculator.display.value += '-'"></td>
+     </tr>
+     <tr>
+            <td><input type="button" name="seven" value="7" onclick="calculator.display.value += '7'"></td>
+            <td><input type="button" name="eight" value="8" onclick="calculator.display.value += '8'"></td>
+            <td><input type="button" name="nine" value="9" onclick="calculator.display.value += '9'"></td>
+            <td><input type="button" class="operator" name="times" value="x" onclick="calculator.display.value += '*'"></td>
+     </tr>
+     
+
+     
+     <tr>
+            <td><input style="font-size:30pt;color:white;background:red;" type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+            <td><input type="button" name="zero" value="0" onclick="calculator.display.value += '0'"></td>
+            <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+            <td><input type="button" class="operator" name="div" value="/" onclick="calculator.display.value += '/'"></td>
+      
+      </tr>
+   </table>
+</form>
+</div>
+<div class="grid-item">
+<canvas id="canvas" width="400" height="400"
+style="background-color:#2f4f4f;;">
+</canvas>
+ <script src="clock.js">
+      </script>
+
+</div>
+<div class="grid-item">
+<pre>
+         /\
+         /00\
+         __|__
+         |    |
+           
+    /\  
+  /  \
+  __ (00) __
+     \__|__/   
+  |
+  |
+  /\
+ _/ _\
+ 
+</pre>
+
+</div>
+</div>
+<div style="font-weight:bold;" class="footer">
+  <p>Galugalu2019</p>
+</div>
+
+
+</body>
+</html>
